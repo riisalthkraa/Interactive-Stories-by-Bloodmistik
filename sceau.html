@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le Sceau des Cinq - Livre-jeu narratif Dark Fantasy sur les dieux et la corruption">
+    <meta name="author" content="VIEY David">
+    <title>Le Sceau des Cinq - Livre-Jeu Narratif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">🎮</span>
+                <div>
+                    <h1>Interactive Stories</h1>
+                    <span class="tagline">by VIEY David</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ronin.html">Le Ronin sans Nom</a></li>
+                <li><a href="sceau.html" class="active">Le Sceau des Cinq</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero game-hero sceau-hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="game-status-badge playable">
+                    <span class="status-icon">🎮</span>
+                    Démo Jouable
+                </div>
+                <h2 class="hero-title" style="background: linear-gradient(135deg, #7c3aed, #5b21b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Le Sceau des Cinq</h2>
+                <p class="hero-subtitle">Le Pacte Brisé - Tome I : L'Éveil Divin</p>
+                <div class="game-tags" style="justify-content: center; margin-top: 2rem;">
+                    <span class="tag">Dark Fantasy</span>
+                    <span class="tag">Dieux Endormis</span>
+                    <span class="tag">Corruption</span>
+                    <span class="tag">Livre-Jeu</span>
+                </div>
+                <div class="hero-cta" style="margin-top: 3rem;">
+                    <a href="#" class="btn-large btn-primary-sceau">
+                        <span class="btn-icon">💾</span>
+                        Télécharger Démo
+                    </a>
+                    <a href="tarifs.html" class="btn-large btn-secondary">
+                        <span class="btn-icon">💎</span>
+                        Voir les Tarifs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">L'Histoire</h2>
+            <div class="content-card">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
+                        <img src="../../le_sceau_des_cinq_prototype/images/PROLOGUE/Scène 2 - Les Forges Primordiales.png" alt="Les Forges Primordiales" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1.5rem; font-size: 1.8rem;">Un Monde au Bord du Chaos</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Dans un monde où les dieux endormis rêvent de guerre, l'équilibre fragile maintenu depuis des
+                            siècles menace de se briser. Les Cinq Seigneurs, gardiens du pacte ancestral, complotent dans
+                            l'ombre, chacun cherchant à s'emparer du pouvoir absolu.
+                        </p>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Votre père, le tyran Draxar, vient de mourir. Mais son héritage n'est pas qu'un royaume...
+                            c'est un dieu oublié qui sommeille en vous, attendant son réveil.
+                        </p>
+                        <p style="line-height: 1.8;">
+                            Vous êtes Kira Draxar, héritière maudite, prise entre cinq seigneurs manipulateurs et une
+                            puissance divine qui menace de vous consumer de l'intérieur.
+                        </p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(91, 33, 182, 0.1)); border-left: 4px solid #7c3aed; border-radius: 12px;">
+                    <h3 style="color: #7c3aed; margin-bottom: 1rem; font-size: 1.5rem;">Votre Destinée</h3>
+                    <p style="line-height: 1.8;">
+                        Chaque choix vous rapproche d'une corruption divine. Resterez-vous humaine ou embrasserez-vous
+                        le pouvoir des dieux ? Forgerez-vous des alliances ou régnerez-vous par la terreur ?
+                        Votre corruption déterminera votre fin parmi 15 destinées possibles, chacune reflétant le prix
+                        du pouvoir absolu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lords Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Les Cinq Seigneurs</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: #ccc;">
+                Cinq puissances rivales, cinq visions du monde. Vos alliances avec eux façonneront votre destin.
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="content-card">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">⚔️</div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem;">Le Seigneur de Guerre</h3>
+                        <p style="color: #999; line-height: 1.6;">
+                            Maître des armées, il croit au pouvoir de la force brute et à la conquête militaire.
+                            Son alliance offre puissance et protection... au prix de votre humanité.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">📚</div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem;">Le Seigneur des Savoirs</h3>
+                        <p style="color: #999; line-height: 1.6;">
+                            Gardien des connaissances interdites, il détient les secrets des dieux endormis.
+                            Son aide vient avec des révélations qui changeront votre vision du monde.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">💰</div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem;">Le Seigneur Marchand</h3>
+                        <p style="color: #999; line-height: 1.6;">
+                            Contrôleur des routes commerciales et de la richesse du royaume. Il comprend que
+                            tout a un prix... même votre âme.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">⛪</div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem;">Le Seigneur Spirituel</h3>
+                        <p style="color: #999; line-height: 1.6;">
+                            Leader religieux des cultes anciens, il vénère les dieux endormis et pourrait
+                            voir en vous une prophétie incarnée... ou une hérésie à détruire.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🎭</div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem;">Le Seigneur des Ombres</h3>
+                        <p style="color: #999; line-height: 1.6;">
+                            Maître des espions et des assassins, il manipule les événements depuis l'ombre.
+                            Ses intentions restent mystérieuses... comme sa véritable identité.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Gameplay</h2>
+
+            <div class="features-grid" style="grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-bottom: 3rem;">
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">🌑</span>
+                        <div>
+                            <h3 style="color: #7c3aed; margin-bottom: 1rem;">Système de Corruption</h3>
+                            <p style="line-height: 1.8;">
+                                Chaque choix corrompt votre âme différemment. Sept formes de corruption divine
+                                (Orgueil, Colère, Ambition, Désespoir, Cruauté, Folie, Sacrifice) déterminent
+                                votre transformation et votre fin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">👑</span>
+                        <div>
+                            <h3 style="color: #7c3aed; margin-bottom: 1rem;">Gestion des Alliances</h3>
+                            <p style="line-height: 1.8;">
+                                Naviguez entre les cinq seigneurs, forgez des alliances, trahissez vos alliés
+                                ou jouez-les les uns contre les autres. Chaque relation affecte les options
+                                disponibles et les fins accessibles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">🎭</span>
+                        <div>
+                            <h3 style="color: #7c3aed; margin-bottom: 1rem;">15 Fins + Variantes</h3>
+                            <p style="line-height: 1.8;">
+                                6 destinées principales (Tyran Divin, Dieu Incarné, Martyre, Humaine Préservée,
+                                Sacrifice Cosmique, Corruption Totale) avec de multiples variantes selon vos
+                                choix et alliances.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">💾</span>
+                        <div>
+                            <h3 style="color: #7c3aed; margin-bottom: 1rem;">Sauvegarde Avancée</h3>
+                            <p style="line-height: 1.8;">
+                                Système de slots multiples permettant d'explorer différentes branches narratives.
+                                Sauvegardez à tout moment et expérimentez avec différents choix moraux.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3 style="color: #7c3aed; margin-bottom: 2rem; font-size: 1.8rem; text-align: center;">Mécaniques de Jeu</h3>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+                        <h4 style="margin-bottom: 0.5rem;">Tracking de Corruption</h4>
+                        <p style="color: #999;">7 formes de corruption divine</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
+                        <h4 style="margin-bottom: 0.5rem;">Relations Complexes</h4>
+                        <p style="color: #999;">Alliances et trahisons dynamiques</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🔮</div>
+                        <h4 style="margin-bottom: 0.5rem;">Pouvoirs Divins</h4>
+                        <p style="color: #999;">Déverrouillez des capacités interdites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Caractéristiques</h2>
+
+            <div class="stats-grid" style="margin-bottom: 3rem;">
+                <div class="stat-card">
+                    <div class="stat-icon">📖</div>
+                    <div class="stat-number">33</div>
+                    <div class="stat-label">Chapitres</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Prologue + 32 Chapitres</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👑</div>
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Seigneurs</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Factions rivales</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🎭</div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Fins</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Destinées + variantes</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <div class="stat-number">30-40h</div>
+                    <div class="stat-label">Durée</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Par partie</p>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3 style="color: #7c3aed; margin-bottom: 2rem; font-size: 1.8rem;">Points Forts</h3>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                    <div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Univers dark fantasy original et immersif</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Système de corruption profond et varié</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Rejouabilité très élevée (15+ fins)</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Réseau d'alliances et trahisons complexe</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Choix moraux ambigus et impactants</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Système de sauvegarde multi-slots</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>Démo jouable disponible maintenant</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #7c3aed; font-size: 1.5rem;">✓</span>
+                                <span>100% Gratuit, aucun achat intégré</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Personnage Principal</h2>
+            <div class="content-card">
+                <div style="display: grid; grid-template-columns: 300px 1fr; gap: 3rem; align-items: center;">
+                    <div style="height: 300px; border-radius: 12px; overflow: hidden;">
+                        <img src="../../le_sceau_des_cinq_prototype/images/KIRA DRAXAR, La Fille de Fer.png" alt="Kira Draxar - L'Héritière Divine" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div>
+                        <h3 style="color: #7c3aed; margin-bottom: 1rem; font-size: 2rem;">Kira Draxar - L'Héritière Divine</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Fille du tyran Draxar, Kira a grandi dans l'ombre d'un père cruel et d'un royaume construit
+                            sur la peur. À la mort de son père, elle découvre un secret terrifiant : elle est l'héritière
+                            d'un dieu oublié, une entité ancienne qui sommeille en elle depuis sa naissance.
+                        </p>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Prise entre les machinations des Cinq Seigneurs et une puissance divine qui menace de la consumer,
+                            Kira doit naviguer dans un monde de complots politiques tout en luttant contre la corruption qui
+                            grandit en elle à chaque décision difficile.
+                        </p>
+                        <p style="line-height: 1.8;">
+                            Gardera-t-elle son humanité face aux tentations du pouvoir absolu, ou embrassera-t-elle sa nature
+                            divine pour régner en déesse terrifiante ?
+                        </p>
+                        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                            <div style="padding: 1rem 1.5rem; background: rgba(124, 58, 237, 0.2); border-radius: 8px;">
+                                <strong style="color: #7c3aed;">Âge:</strong> 24 ans
+                            </div>
+                            <div style="padding: 1rem 1.5rem; background: rgba(124, 58, 237, 0.2); border-radius: 8px;">
+                                <strong style="color: #7c3aed;">Héritage:</strong> Divin
+                            </div>
+                            <div style="padding: 1rem 1.5rem; background: rgba(124, 58, 237, 0.2); border-radius: 8px;">
+                                <strong style="color: #7c3aed;">Destin:</strong> Incertain
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Captures d'Écran</h2>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../le_sceau_des_cinq_prototype/images/CHAPITRE 1/Scène 1 - La Salle du Trône de Fer.jpg" alt="La Salle du Trône de Fer" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        La Salle du Trône de Fer
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../le_sceau_des_cinq_prototype/images/CHAPITRE 3/Scène 3 - L'Oasis Maudite.jpg" alt="L'Oasis Maudite" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        L'Oasis Maudite
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../le_sceau_des_cinq_prototype/images/PROLOGUE/Scène 1 - Le Serment des Cinq.jpg" alt="Le Serment des Cinq" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Le Serment des Cinq
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../le_sceau_des_cinq_prototype/images/CHAPITRE 1/Scène 2 - Le Bosquet Sacré de Sylvaran.jpg" alt="Le Bosquet Sacré de Sylvaran" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Le Bosquet Sacré de Sylvaran
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à Embrasser Votre Destin ?</h2>
+            <p>La démo du Sceau des Cinq est disponible. Téléchargez-la sur itch.io pour découvrir le début de votre corruption.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn-large btn-primary-sceau">
+                    💾 Télécharger Démo
+                </a>
+                <a href="ronin.html" class="btn-large btn-ronin">
+                    ⚔️ Découvrir Le Ronin sans Nom
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>🎮 Interactive Stories</h3>
+                    <p>Fiction narrative interactive nouvelle génération</p>
+                    <p style="margin-top: 1rem;">by VIEY David</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="ronin.html">Le Ronin sans Nom</a></li>
+                        <li><a href="sceau.html">Le Sceau des Cinq</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Développeur: VIEY David (Bloodmistik)</p>
+                    <p>Email: <a href="mailto:Riisalthkarral@gmail.com">Riisalthkarral@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 VIEY David - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le Ronin sans Nom - Livre-jeu narratif sur la vengeance dans le Japon féodal">
+    <meta name="author" content="VIEY David">
+    <title>Le Ronin sans Nom - Livre-Jeu Narratif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">🎮</span>
+                <div>
+                    <h1>Interactive Stories</h1>
+                    <span class="tagline">by VIEY David</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ronin.html" class="active">Le Ronin sans Nom</a></li>
+                <li><a href="sceau.html">Le Sceau des Cinq</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero game-hero ronin-hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="game-status-badge coming-soon">
+                    <span class="status-icon">🕐</span>
+                    Bientôt Disponible
+                </div>
+                <h2 class="hero-title" style="background: linear-gradient(135deg, #dc2626, #991b1b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Le Ronin sans Nom</h2>
+                <p class="hero-subtitle">Quand l'Honneur rencontre la Haine</p>
+                <div class="game-tags" style="justify-content: center; margin-top: 2rem;">
+                    <span class="tag">Japon Féodal</span>
+                    <span class="tag">Vengeance</span>
+                    <span class="tag">Combat Tactique</span>
+                    <span class="tag">Livre-Jeu</span>
+                </div>
+                <div class="hero-cta" style="margin-top: 3rem;">
+                    <button class="btn-large btn-primary-ronin" disabled>
+                        <span class="btn-icon">🕐</span>
+                        Bientôt Disponible
+                    </button>
+                    <a href="tarifs.html" class="btn-large btn-secondary">
+                        <span class="btn-icon">💎</span>
+                        Voir les Tarifs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">L'Histoire</h2>
+            <div class="content-card">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                    <div>
+                        <h3 style="color: #dc2626; margin-bottom: 1.5rem; font-size: 1.8rem;">La Trahison</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Il y a sept ans, vous étiez Kaito, un jeune samouraï prometteur au service du daimyo Takeda.
+                            Votre mentor, le légendaire maître d'armes Hiroshi, vous enseignait les voies du bushido et
+                            l'art du katana.
+                        </p>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Puis vint la nuit qui changea tout. Hiroshi fut retrouvé mort, assassiné dans son propre dojo.
+                            Les preuves vous accusaient. Votre katana. Votre présence sur les lieux. Les témoins qui juraient
+                            vous avoir vu fuir dans la nuit.
+                        </p>
+                        <p style="line-height: 1.8;">
+                            Déshonoré, chassé, vous avez fui. Sept années d'errance. Sept années à survivre comme un ronin
+                            sans maître, sans honneur, sans nom.
+                        </p>
+                    </div>
+                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
+                        <img src="../../LE RONIN SANS NOM/fond.png" alt="Le Ronin sans Nom - Japon Féodal" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(220, 38, 38, 0.1), rgba(153, 27, 27, 0.1)); border-left: 4px solid #dc2626; border-radius: 12px;">
+                    <h3 style="color: #dc2626; margin-bottom: 1rem; font-size: 1.5rem;">La Vengeance</h3>
+                    <p style="line-height: 1.8;">
+                        Mais aujourd'hui, vous revenez. Vous avez découvert la vérité. Quelqu'un vous a piégé cette nuit-là.
+                        Quelqu'un a tué votre mentor et détruit votre vie. Et maintenant, après sept ans d'attente, vous êtes
+                        prêt à faire payer le coupable. Quel qu'en soit le prix.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Gameplay</h2>
+
+            <div class="features-grid" style="grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-bottom: 3rem;">
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">📖</span>
+                        <div>
+                            <h3 style="color: #dc2626; margin-bottom: 1rem;">Narration Immersive</h3>
+                            <p style="line-height: 1.8;">
+                                Vivez une histoire narrative profonde avec un prologue et 10 chapitres épiques.
+                                Chaque choix compte et influence le déroulement de votre quête de vengeance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">⚔️</span>
+                        <div>
+                            <h3 style="color: #dc2626; margin-bottom: 1rem;">Combat Tactique</h3>
+                            <p style="line-height: 1.8;">
+                                Affrontez vos ennemis dans un système de combat au tour par tour. Gérez votre endurance,
+                                anticipez les attaques, et maîtrisez l'art du katana pour survivre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">📊</span>
+                        <div>
+                            <h3 style="color: #dc2626; margin-bottom: 1rem;">Statistiques Narratives</h3>
+                            <p style="line-height: 1.8;">
+                                Trois statistiques façonnent votre parcours : <strong>Haine</strong> (vengeance),
+                                <strong>Honneur</strong> (bushido), et <strong>Alliance</strong> (relations).
+                                Vos choix modifient ces valeurs et déterminent votre fin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <span style="font-size: 3rem;">🎭</span>
+                        <div>
+                            <h3 style="color: #dc2626; margin-bottom: 1rem;">Fins Multiples</h3>
+                            <p style="line-height: 1.8;">
+                                5 fins différentes vous attendent selon vos choix moraux. Deviendrez-vous un
+                                vengeur sanguinaire, un samouraï honorable, ou trouverez-vous une voie médiane ?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3 style="color: #dc2626; margin-bottom: 2rem; font-size: 1.8rem; text-align: center;">Mécaniques de Jeu</h3>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🗡️</div>
+                        <h4 style="margin-bottom: 0.5rem;">Armes & Équipement</h4>
+                        <p style="color: #999;">Trouvez et améliorez votre équipement</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">💪</div>
+                        <h4 style="margin-bottom: 0.5rem;">Système d'Endurance</h4>
+                        <p style="color: #999;">Gérez votre énergie en combat</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                        <h4 style="margin-bottom: 0.5rem;">Choix Tactiques</h4>
+                        <p style="color: #999;">Attaquer, défendre, ou utiliser des techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Caractéristiques</h2>
+
+            <div class="stats-grid" style="margin-bottom: 3rem;">
+                <div class="stat-card">
+                    <div class="stat-icon">📖</div>
+                    <div class="stat-number">11</div>
+                    <div class="stat-label">Chapitres</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Prologue + 10 Chapitres</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⚔️</div>
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Combats</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Batailles tactiques</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🎭</div>
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Fins</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Destinées uniques</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <div class="stat-number">10-15h</div>
+                    <div class="stat-label">Durée</div>
+                    <p style="color: #999; margin-top: 0.5rem;">Par partie</p>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h3 style="color: #dc2626; margin-bottom: 2rem; font-size: 1.8rem;">Points Forts</h3>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                    <div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Histoire narrative profonde et immersive</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Système de combat tactique au tour par tour</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Ambiance Japon féodal authentique</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Thème de la vengeance et de l'honneur</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Rejouabilité élevée avec fins multiples</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Choix moraux impactant le récit</span>
+                            </li>
+                            <li style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>Sauvegarde automatique et manuelle</span>
+                            </li>
+                            <li style="padding: 1rem 0; display: flex; align-items: center; gap: 1rem;">
+                                <span style="color: #dc2626; font-size: 1.5rem;">✓</span>
+                                <span>100% Gratuit, aucun achat intégré</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Personnage Principal</h2>
+            <div class="content-card">
+                <div style="display: grid; grid-template-columns: 300px 1fr; gap: 3rem; align-items: center;">
+                    <div style="height: 300px; border-radius: 12px; overflow: hidden;">
+                        <img src="../../LE RONIN SANS NOM/3175fde8-f64c-4b30-a433-26515d406338.png" alt="Kaito - Le Ronin sans Nom" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div>
+                        <h3 style="color: #dc2626; margin-bottom: 1rem; font-size: 2rem;">Kaito - Le Ronin sans Nom</h3>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Autrefois un samouraï prometteur au service du daimyo Takeda, Kaito a tout perdu il y a sept ans
+                            lorsqu'il fut accusé du meurtre de son mentor, le maître d'armes Hiroshi. Déshonoré et chassé, il
+                            devint un ronin errant, survivant de petits boulots et évitant les regards.
+                        </p>
+                        <p style="line-height: 1.8; margin-bottom: 1rem;">
+                            Mais le temps n'a pas éteint sa soif de vérité. Durant ses années d'errance, Kaito n'a jamais cessé
+                            d'enquêter sur la mort d'Hiroshi. Et maintenant qu'il connaît la vérité, il revient pour obtenir
+                            justice... ou vengeance.
+                        </p>
+                        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                            <div style="padding: 1rem 1.5rem; background: rgba(220, 38, 38, 0.2); border-radius: 8px;">
+                                <strong style="color: #dc2626;">Âge:</strong> 32 ans
+                            </div>
+                            <div style="padding: 1rem 1.5rem; background: rgba(220, 38, 38, 0.2); border-radius: 8px;">
+                                <strong style="color: #dc2626;">Arme:</strong> Katana
+                            </div>
+                            <div style="padding: 1rem 1.5rem; background: rgba(220, 38, 38, 0.2); border-radius: 8px;">
+                                <strong style="color: #dc2626;">Style:</strong> Bushido
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Captures d'Écran</h2>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../LE RONIN SANS NOM/fond.png" alt="Japon Féodal" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Japon Féodal Authentique
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../LE RONIN SANS NOM/3175fde8-f64c-4b30-a433-26515d406338.png" alt="Kaito le Ronin" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Personnages Détaillés
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../LE RONIN SANS NOM/fond.png" alt="Ambiance Japonaise" style="width: 100%; height: 100%; object-fit: cover; object-position: center bottom;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Ambiance Immersive
+                    </div>
+                </div>
+                <div style="height: 300px; border-radius: 12px; overflow: hidden; position: relative;">
+                    <img src="../../LE RONIN SANS NOM/fond.png" alt="Architecture Japonaise" style="width: 100%; height: 100%; object-fit: cover; object-position: left center;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 1rem; color: white; font-weight: 600;">
+                        Décors Soignés
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt pour la Vengeance ?</h2>
+            <p>Le Ronin sans Nom arrive bientôt. Préparez-vous à tracer votre chemin sanglant vers la rédemption.</p>
+            <div class="cta-buttons">
+                <button class="btn-large btn-primary-ronin" disabled>
+                    🕐 Bientôt Disponible
+                </button>
+                <a href="sceau.html" class="btn-large btn-sceau">
+                    👑 Découvrir Le Sceau des Cinq
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>🎮 Interactive Stories</h3>
+                    <p>Fiction narrative interactive nouvelle génération</p>
+                    <p style="margin-top: 1rem;">by VIEY David</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="ronin.html">Le Ronin sans Nom</a></li>
+                        <li><a href="sceau.html">Le Sceau des Cinq</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Développeur: VIEY David (Bloodmistik)</p>
+                    <p>Email: <a href="mailto:Riisalthkarral@gmail.com">Riisalthkarral@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 VIEY David - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
