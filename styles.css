@@ -131,6 +131,20 @@ body {
     background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 100%);
 }
 
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0.3;
+    object-fit: cover;
+}
+
 .hero-bg {
     position: absolute;
     inset: 0;
@@ -345,6 +359,20 @@ body {
     justify-content: center;
     border: 1px solid var(--border-color);
     margin-bottom: 1.5rem;
+}
+
+/* Content Card */
+.content-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s;
+}
+
+.content-card:hover {
+    border-color: rgba(139, 92, 246, 0.3);
+    box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1);
 }
 
 .placeholder-content {
@@ -699,6 +727,19 @@ body {
     color: #6b7280;
 }
 
+/* Game Specific Styles */
+.ronin-hero {
+    background: linear-gradient(135deg, rgba(15, 15, 15, 0.95) 0%, rgba(26, 26, 46, 0.95) 100%);
+}
+
+.sceau-hero {
+    background: linear-gradient(135deg, rgba(15, 15, 15, 0.95) 0%, rgba(26, 26, 46, 0.95) 100%);
+}
+
+.game-hero {
+    position: relative;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .hero-title {
@@ -750,5 +791,14 @@ body {
 
     .cta-buttons {
         flex-direction: column;
+    }
+
+    /* Character galleries responsive */
+    .section-dark .container > div[style*="grid-template-columns: repeat(4"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .section .container > div[style*="grid-template-columns: repeat(3"] {
+        grid-template-columns: 1fr !important;
     }
 }
